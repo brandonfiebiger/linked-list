@@ -1,0 +1,138 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  height: 100%;
+  width: 100%;
+}
+
+.website-form {
+  background-color: #455A64;
+  float: left;
+  width: 50%;
+  height: 810px;
+  text-align: center;
+  margin: 0px;
+  font-size: 100px;
+
+}
+
+.saved-links {
+  background-color: #D1D8DC;
+  float: right;
+  width:50%;
+  height: 810px;
+}
+
+img {
+  height: 20%;
+  width: 20%;
+  position: relative;
+  top: 90px;
+  left: 9%;
+  margin: 0px 0px 0px 0px;
+}
+
+form {
+  position: relative;
+  top: 200px;
+/*  text-align: center;
+*/}
+
+#website-title-input {
+  position: relative;
+  bottom: 200px;
+  width: 80%;
+  height: 30px;
+  font-size: 25PX;
+  font-weight: 300;
+
+}
+
+#website-url-input {
+  width: 80%;
+  height: 30px;
+  position: relative;
+  bottom: 230px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#enter-button {
+  position: relative;
+  bottom: 270px;
+  width: 80%;
+  background-color: #F6C344;
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+
+}
+
+#enter-button:hover {
+  background-color: #F9D882;
+
+}
+
+
+
+#linked-text {
+  color: white;
+  font-size: 6vw;
+    position: relative;
+    top: 208px;
+    left: 10%;
+    font-weight: 800;
+    width: 40%;
+
+}
+
+#list-text {
+  color: white;
+  font-size: 6vw;
+  position:absolute;
+  left: 20%;
+  top: 210px;
+  font-weight:800;
+  width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .website-form {
+    float: none;
+    width: 100%;
+
+  }
+
+  .saved-links {
+    float: none;
+    width: 100%;
+  }
+
+  #linked-text {
+    font-size: 12vw;
+
+  }
+
+  #list-text {
+    font-size: 12vw;
+    position: absolute;
+    top: 214px;
+    
+    left: 59%;
+
+  }
+
+  img {
+    height: 20%;
+    width: 20%;
+    position: relative;
+    top: 108px;
+    left: 9%;
+  }
+
+
+
+
+
+
+}
