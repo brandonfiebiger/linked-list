@@ -8,19 +8,54 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-  <section class="website-form">
-    <h1 id="linked-text">Linked
-    </h1>
-    <img src="linked-list-logo.svg">
-    <h1 id="list-text">List
-    </h1>
-    <form>
-      <input type="text" placeholder="Website Title" id="website-title-input">
-      <input type="text" placeholder="Website URL" id="website-url-input">
-      <input type="button" value="Enter" id="enter-button">
-    </form>
+  <section class="container">
+    <section class="website-form">
+      <h1 id="linked-text">Linked
+      </h1>
+      <img src="linked-list-logo.svg">
+      <h1 id="list-text">List
+      </h1>
+      <form>
+        <input type="text" placeholder="Website Title" id="website-title-input">
+        <input type="text" placeholder="Website URL" id="website-url-input">
+        <input type="button" value="Enter" id="enter-button">
+      </form>
+    </section>
+    <section class="saved-links">
+      <ul>
+        <li class="saved-url-boxes">
+          <h1 class="website-title-header">The Website Title
+          </h1>
+          <hr>
+          <a href=''>
+            www.thewebsiteurl.com
+          </a>
+          <hr>
+          <button class="read-button">
+            Read
+          </button>
+          <button class="delete-button">
+            Delete
+          </button>
+       </li>
+       <li class="saved-url-boxes">
+          <h1 class="website-title-header">The Website Title
+          </h1>
+          <hr>
+          <a href=''>
+            www.thewebsiteurl.com
+          </a>
+          <hr>
+          <button class="read-button">
+            Read
+          </button>
+          <button class="delete-button">
+            Delete
+          </button>
+       </li>
+      </ul>
+    </section>
   </section>
-  <section class="saved-links">
-  </section>
+ <script type="text/javascript" src="client.js"></script>
 </body>
 </html>
