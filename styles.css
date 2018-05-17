@@ -169,6 +169,21 @@ form {
 }
 
 
+/*Add to BF's CSS sheet*/
+.read-red {
+  color: #F05A28;
+}
+
+.read-background {
+  background-color: #F2F4F4;
+}
+
+.read-underline {
+  text-decoration-color: #CFD8DC
+}
+
+
+
 @media screen and (min-width: 1100px) {
   .container {
     margin: 0 auto;
@@ -257,4 +272,6 @@ form {
 
 
 }
+
+
 
