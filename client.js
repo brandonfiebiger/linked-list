@@ -20,16 +20,16 @@ function addBookmark() {
 function displayBookmark() {
   var newBookmarkLi = document.createElement('li');
   newBookmarkLi.innerHTML = 
-    `<li class="saved-url-boxes"> 
+    `<li class="saved-url-boxes" aria-label="bookmark"> 
       <h1 class="website-title-header">${webSiteTitle.value}
       </h1> 
       <hr>
       <a href= webSiteUrl.value>${webSiteUrl.value}</a>
       <hr>
-        <button class="read-button">
+        <button class="read-button" aria-label="read">
           Read
         </button>
-        <button class="delete-button">
+        <button class="delete-button" aria-label="delete">
           Delete 
         </button> 
       </li>`;
@@ -44,15 +44,19 @@ function displayBookmark() {
     addBookmark();
     displayBookmark();
     console.log(bookmarks);
-  });
+    removeBookmarkButton.addEventListener('click', function() {
+       bookmark.remove();
 
-  bookmarkUl.addEventListener('click', deleteBookmark);
+  
+  });
+  });
+  // bookmarkUl.addEventListener('click', deleteBookmark);
     
 
 
 
-  function deleteBookmark () {
-    console.log(this);
+  // function deleteBookmark () {
+  //   console.log(this);
     //id li to be removed 
     // var bookmark = event.target.parentNode;
     // bookmark.remove();
@@ -61,7 +65,7 @@ function displayBookmark() {
     //   bookmark.remove();
     // });
     //use .remove method to delete selected li from HTML
-  };
+
 
   // document.querySelector('.container-right').addEventListener('click', function(event) {
   //   console.log('hey');
